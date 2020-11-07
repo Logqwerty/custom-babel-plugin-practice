@@ -1,0 +1,15 @@
+{
+  "name": "custom-babel-plugin-pratice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Logqwerty/custom-babel-plugin-pratice.git",
+  "author": "Logqwerty <inm2790@gmail.com>",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "babel-core": "yarn workspace @ex/babel-core start"
+  }
+}

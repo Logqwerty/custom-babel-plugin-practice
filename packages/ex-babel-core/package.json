@@ -1,0 +1,14 @@
+{
+  "name": "@ex/babel-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-destructuring": "^7.12.1",
+    "@babel/preset-react": "^7.12.5"
+  }
+}
