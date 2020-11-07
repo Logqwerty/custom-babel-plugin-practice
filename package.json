@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "babel-core": "yarn workspace @ex/babel-core start",
-    "babel-cli": "yarn workspace @ex/babel-cli start"
+    "babel-cli": "yarn workspace @ex/babel-cli start",
+    "babel-loader": "yarn workspace @ex/babel-loader start"
   }
 }
