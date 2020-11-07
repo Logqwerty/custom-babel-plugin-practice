@@ -10,8 +10,10 @@
     "packages/*"
   ],
   "scripts": {
-    "babel-core": "yarn workspace @ex/babel-core start",
-    "babel-cli": "yarn workspace @ex/babel-cli start",
-    "babel-loader": "yarn workspace @ex/babel-loader start"
+    "babel-core": "yarn workspace @ex/babel-core run start",
+    "babel-cli": "yarn workspace @ex/babel-cli run start",
+    "babel-loader": "yarn workspace @ex/babel-loader run start",
+    "babel-plugin:ex1": "yarn workspace @ex/babel-plugin run start:ex1",
+    "babel-plugin:ex2": "yarn workspace @ex/babel-plugin run start:ex2"
   }
 }
