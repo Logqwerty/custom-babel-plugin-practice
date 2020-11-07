@@ -1,0 +1,16 @@
+{
+  "name": "@ex/babel-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx babel src/before.js --presets=@babel/preset-react --plugins=@babel/plugin-transform-destructuring --out-file dist/after.js",
+    "start": "yarn compile && cat dist/after.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-destructuring": "^7.12.1",
+    "@babel/preset-react": "^7.12.5"
+  }
+}
