@@ -1,8 +1,11 @@
 import * as parser from "@babel/parser";
 import traverse from "@babel/traverse";
 import generate from "@babel/generator";
+import fs from "fs";
+import path from "path";
 
-const code = "const greeting = 'hello, world!';";
+const filepath = path.resolve(__dirname, "..", "code.js");
+const code = fs.readFileSync(filepath, "utf-8");
 
 // 1. code --> AST
 const ast = parser.parse(code);
